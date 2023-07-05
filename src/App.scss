@@ -1,0 +1,21 @@
+@import url('https://cdn.jsdelivr.net/npm/gardevoir');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+// Variables 
+
+    $font: 'Fira Sans';
+
+// Global
+
+*, *::before, *::after {
+    font-family: inherit;
+    box-sizing: border-box;
+}
+body {
+    font-family: $font;
+    min-height: 100vh;
+}
+
+#root {
+    min-height: inherit;
+}
